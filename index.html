@@ -1,0 +1,92 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+
+    <!-- SEO primário -->
+    <title>IA, Engenharia e Análise de Dados para Empresas | DataStar Services</title>
+    <meta name="description" content="A DataStar Services transforma dados em vantagem competitiva. Soluções em engenharia de dados, ciência de dados, IA generativa e dashboards para empresas brasileiras." />
+    <meta name="keywords" content="engenharia de dados, ciência de dados, inteligência artificial, BI, dashboards, machine learning, automação, Ribeirão Preto, São Paulo" />
+    <meta name="author" content="DataStar Services" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://datastarservices.com.br/" />
+
+    <!-- Open Graph (WhatsApp, LinkedIn, Facebook) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datastarservices.com.br/" />
+    <meta property="og:title" content="IA, Engenharia e Análise de Dados para Empresas | DataStar Services" />
+    <meta property="og:description" content="A DataStar Services transforma dados em vantagem competitiva. Soluções em engenharia de dados, ciência de dados, IA e dashboards para empresas brasileiras." />
+    <meta property="og:image" content="https://datastarservices.com.br/og-image.png" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="DataStar Services" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IA, Engenharia e Análise de Dados para Empresas | DataStar Services" />
+    <meta name="twitter:description" content="Transformamos dados em vantagem competitiva. Engenharia de dados, IA e dashboards para empresas brasileiras." />
+    <meta name="twitter:image" content="https://datastarservices.com.br/og-image.png" />
+
+    <!-- Schema.org: dados estruturados para o Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "DataStar Services",
+      "url": "https://datastarservices.com.br",
+      "logo": "https://datastarservices.com.br/logo.png",
+      "image": "https://datastarservices.com.br/og-image.png",
+      "description": "Soluções em engenharia de dados, ciência de dados, IA generativa e dashboards para empresas brasileiras.",
+      "telephone": "+55-16-98161-9656",
+      "email": "contato@datastarservices.com.br",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ribeirão Preto",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "areaServed": "BR",
+      "serviceType": ["Engenharia de Dados", "Ciência de Dados", "Inteligência Artificial", "Business Intelligence"],
+      "openingHours": "Mo-Sa 09:00-18:00",
+      "sameAs": [
+        "https://linkedin.com/company/datastar-services",
+        "https://github.com/datastar-services"
+      ]
+    }
+    </script>
+
+    <!-- Fonte Inter (moderne e tech) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                light: '#E8F7EE',      // verde bem claro
+                DEFAULT: '#F0803C',     // laranja vibrante
+                dark: '#2C0703',        // marrom escuro
+                blue: '#2F4858',        // azul acinzentado escuro
+                'orange-dark': '#D35400' // laranja mais escuro
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-brand-light font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
