@@ -55,7 +55,7 @@ export default function Projects() {
     <section id="projetos" style={styles.sectionAlt}>
       <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", color: "#00D4AA", marginBottom: 12 }}>Casos de Sucesso</div>
       <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 700, marginBottom: 16 }}>Projetos realizados</h2>
-      <p style={{ fontSize: 16, color: "rgba(232,234,240,0.55)", maxWidth: 540, lineHeight: 1.7, margin: "0 0 60px" }}>Resultados concretos em empresas de diferentes setores e tamanhos — automação, IA e dados aplicados ao seu contexto.</p>
+      <p style={{ fontSize: 16, color: "rgba(232,234,240,0.55)", maxWidth: 540, lineHeight: 1.7, margin: "0 0 60px" }}>Resultados concretos em empresas de diferentes setores e tamanhos.</p>
       <div style={styles.grid3}>
         {PROJECTS.map((p, i) => (
           <div key={i} style={styles.projectCard}>

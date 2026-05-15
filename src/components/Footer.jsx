@@ -26,8 +26,8 @@ export default function Footer({ scrollTo }) {
   return (
     <footer style={styles.footer}>
       <div style={styles.logo}>
-        <span style={{ color: "#00D4AA" }}>◆</span>
-        DataStar Solutions
+        DataStar
+        <span style={{ color: "#00D4AA" }}>Solutions</span>
       </div>
       <div style={styles.footerText}>
         © 2026 DataStar Solutions. Todos os direitos reservados.
